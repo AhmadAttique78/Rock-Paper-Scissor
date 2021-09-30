@@ -1,0 +1,32 @@
+.main-container{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.main-container h2{
+    text-transform: capitalize;
+    font-style: italic;
+    color: darkorange;
+    background-color:black ;
+}
+
+.flex-box-container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 0px 10px 0px;
+    
+}
+
+.flex-box-container img{
+    margin: 0 auto;
+    border: none;
+    
+}
+
+.flex-box-container img:hover{
+    box-shadow:0px 10px 50px rgba(37, 50, 233, 1) ;
+}
+
